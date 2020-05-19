@@ -1,0 +1,27 @@
+body{
+    background-image: url("../Resources/bgd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+a.nav-link{
+    color: #61dafb!important;
+}
+strong{
+    color: white;
+}

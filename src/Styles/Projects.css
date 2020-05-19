@@ -1,0 +1,22 @@
+body{
+    background-image: url("../Resources/bgd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.text{
+    background: rgb(5,75,203);
+    background: linear-gradient(54deg, rgba(5,75,203,1) 11%, rgba(6,226,208,1) 47%, rgba(0,235,35,1) 73%, rgba(0,163,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    padding-bottom: 20px;
+
+}
